@@ -1,3 +1,2 @@
-apt-get update -y
-apt-get install -y expect
-sudo -E apt-get -q -y install mysql-server
+sudo apt-get -y update && sudo apt-get -y upgrade
+sudo apt-get install mysql-server
