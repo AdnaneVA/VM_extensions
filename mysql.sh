@@ -1,3 +1,4 @@
-sudo apt-get update
-sudo apt-get install mysql-server
-
+apt-get update -y
+apt-get install -y expect
+export DEBIAN_FRONTEND=noninteractive
+sudo -E apt-get -q -y install mysql-server
