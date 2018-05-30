@@ -34,3 +34,4 @@ Restart=always
 
 [Install]
 WantedBy=multi-user.target
+sudo systemctl daemon-reload
